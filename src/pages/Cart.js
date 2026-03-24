@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useContext } from 'react';
 import { CartContext } from '../context/CartContext';
 
@@ -55,3 +56,14 @@ const total = cart.reduce((acc, item) => {
 export default Cart;
 
 // code writen only cart continue to tomorrow
+=======
+import React from 'react'
+
+export default function Cart() {
+  return (
+    <div>
+      
+    </div>
+  )
+}
+>>>>>>> b75b3eeef2203be75c5b9587ff7722018fa8ca4a
